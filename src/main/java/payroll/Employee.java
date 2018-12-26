@@ -21,6 +21,10 @@ class Employee {
 		this.role = role;
 	}
 
+	Employee(){
+
+	}
+
 	public String getName() {
 		return this.firstName + " " + this.lastName;
 	}
